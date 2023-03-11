@@ -37,5 +37,10 @@ class RolesTableSeeder extends Seeder
             'id' => 5,
             'name' => 'Compounder'
         ]);
+
+        Role::create([
+            'id' => 6,
+            'name' => 'Patient'
+        ]);
     }
 }
